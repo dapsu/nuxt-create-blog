@@ -8,6 +8,7 @@
         </li>
       </ul>
     </nav>
+    <img src="../../assets/images/network.png" alt="">
     <h1>{{ article.title }}</h1>
     <p>{{ article.description }}</p>
     <img :src="article.img" :alt="article.alt" />
